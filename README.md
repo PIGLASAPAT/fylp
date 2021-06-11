@@ -1,0 +1,2 @@
+# fylp
+This is the site of The Filipino Youth Leadership Program (FYLP). It is a month-long leadership development experience designed to offer a unique opportunity to be trained, formed, and inspired by the nation’s key storytellers, esteemed lecturers, and young-driven mentors, anchored from a place of great love for the country. In its pursuit for a deep-rooted and transformative leadership encounter, FYLP selects thirty sterling student leaders from across Mindanao.
