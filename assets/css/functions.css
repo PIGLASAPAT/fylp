@@ -2,3 +2,7 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
