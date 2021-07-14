@@ -54,7 +54,33 @@
                 <li class="nav-item text-center d-flex justify-content-start" style="text-align: right;color: #ffffff;"><a class="nav-link active d-flex justify-content-start" data-bss-hover-animate="pulse" href="home.html" style="color: rgba(54,54,54,0.64);text-align: left;font-size: 16px;font-family: 'Noto Sans', sans-serif;font-weight: bold;">&nbsp; <i class="fa fa-angle-left" style="padding-top: 4px;"></i>&nbsp; Home&nbsp;&nbsp;</a></li>
             </ul>
         </div>
-    </nav>
+    </nav><!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100772912183341");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
     <section class="contact-clean" style="margin-top: 98px;background: rgba(255,255,255,0);">
         <form style="background: #ffffff;border-radius: 25px;" data-bss-subject="Appication | Mentor" data-netlify="true" data-bss-recipient="4944904d8abbeec29e5244e5469833e4">
             <h2 class="text-center">Mentor Application Form</h2>
