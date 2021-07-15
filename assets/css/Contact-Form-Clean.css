@@ -41,7 +41,7 @@
   outline: none;
   color: inherit;
   padding-left: 12px;
-  height: 42px;
+  /*height: 42px;*/
 }
 
 .contact-clean form .form-control:focus {
